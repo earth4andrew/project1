@@ -3,8 +3,6 @@ import App from './App';
 
 test('renders learn react link', () => {
   render(<App />);
-    const linkElement = screen.getByText(/Influencer Comment Effects/i);
+  const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-
